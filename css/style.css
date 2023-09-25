@@ -1,0 +1,39 @@
+:root {
+    --dark-blue: #2C3E50;
+    --blue: #3A546D;
+    --green: #1ABC9C;
+    --white: #FFFFFF;
+    --text: #333333;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+
+.page-header {
+    background-color: var(--dark-blue);
+    color: var(--white)
+}
+
+.logo-text {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.menu {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
