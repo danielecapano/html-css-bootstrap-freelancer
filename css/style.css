@@ -2,6 +2,7 @@
     --dark-blue: #2C3E50;
     --blue: #3A546D;
     --green: #1ABC9C;
+    --grey: #c9c9c9;
     --white: #FFFFFF;
     --text: #333333;
 }
@@ -10,13 +11,14 @@ img {
     max-width: 100%;
 }
 
-
+/* HEADER */
 
 .page-header {
     background-color: var(--dark-blue);
     color: var(--white)
 }
 
+/* HERO */
 
 .hero {
     background-color: var(--green);
@@ -67,6 +69,8 @@ img {
     font-size: 20px;
 }
 
+/* SECTION PORTFOLIO */
+
 .portfolio-card {
     border-radius: 10px;
     overflow: hidden;
@@ -91,6 +95,32 @@ button {
     padding: 0 18px;
 
 }
+
+/* SECTION CONTACT */
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--grey);
+    padding-bottom: 20px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+button.green {
+    border-color: var(--green);
+    background-color: var(--green);
+}
+
+/* FOOTER */
+
+
 
 
 @media (min-width: 768px) {
