@@ -6,17 +6,7 @@
     --text: #333333;
 }
 
-ul,
-ol,
-menu {
-    list-style: none;
-    margin-bottom: 0;
-}
 
-a {
-    text-decoration: none;
-    color: currentColor;
-}
 
 
 
@@ -25,15 +15,58 @@ a {
     color: var(--white)
 }
 
-.logo-text {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0;
+
+.hero {
+    background-color: var(--green);
+    color: var(--white);
 }
 
-.menu {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 14px;
+.hero img {
+    max-width: 230px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.star {
+    position: relative;
+    margin: 0 auto;
+    width: min-content;
+    font-size: 30px;
+    padding-inline: 10px;
+}
+
+.star::before,
+.star::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 75px;
+    height: 4px;
+    right: 100%;
+    top: 50%;
+    background-color: var(--white);
+    border-radius: 100px;
+    transform: translateY(-50%);
+}
+
+.star::after {
+    left: 100%;
+}
+
+.section-subtitle {
+    font-size: 20px;
+}
+
+
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 60px;
+    }
+
+    .section-subtitle {
+        font-size: 26px;
+    }
 }
