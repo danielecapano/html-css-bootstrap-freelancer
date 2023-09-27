@@ -120,7 +120,33 @@ button.green {
 
 /* FOOTER */
 
+.page-footer {
+    color: var(--white);
+}
 
+.info {
+    background-color: var(--blue);
+}
+
+.social {
+    width: 50px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.copy {
+    background-color: var(--dark-blue);
+}
+
+a.green {
+    color: var(--green);
+}
 
 
 @media (min-width: 768px) {
